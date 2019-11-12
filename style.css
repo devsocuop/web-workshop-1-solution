@@ -1,0 +1,112 @@
+body, main {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#button-container a {
+    color: white;
+    text-decoration: none;
+}
+
+#button-container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 1 !important;
+    flex-wrap: wrap;
+}
+
+#heading-container {
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(252,150,120,1) 0%, rgba(247,108,127,1) 100.4% );
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#play-again-container {
+    background-color: #f3f3f3;
+    height: 30px;
+    padding: 2px;
+}
+
+#play-again-container a {
+    color: black;
+    text-decoration: none;
+}
+
+#play-again-container a:hover {
+    color: rgba(247,108,127,1);
+}
+
+.button-item {
+    border: 0;
+    background-color: none;
+    padding: 100px;
+    border-radius: 25px;
+    margin: 20px;
+    width: 100px;
+    text-align: center;
+}
+
+.button-item:hover {
+    color: black !important;
+}
+
+#bg-1 {
+    background-image: linear-gradient(to right, #667eea, #8E37D7);
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+}
+
+#bg-2 {
+    background-image: linear-gradient(to right, #eb3941, #f15e64, #e14e53, #e2373f);  
+    box-shadow: 0 5px 15px rgba(242, 97, 103, .4);
+}
+
+#bg-3 {
+    background-image: linear-gradient(to right, #25aae1, #3f86ed);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+#bg-4 {
+    background-image: linear-gradient(to right, #0ba360, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
+}
+
+#bg-5 {
+    background-image: linear-gradient(to right, #FCEE21, #D9E021);
+    box-shadow: 0 4px 15px 0 rgba(224, 232, 81, 0.75);
+}
+
+#bg-6 {
+    background-image: linear-gradient(to right, #ff9a44, #e75516);
+    box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+}
+
+#answer {
+    color: black;
+    width: auto;
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 3px;
+    margin-left: 20px;
+}
