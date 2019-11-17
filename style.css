@@ -47,6 +47,7 @@ body, main {
     background-color: #f3f3f3;
     height: 30px;
     padding: 2px;
+    box-sizing: border-box;
 }
 
 #play-again-container a {
